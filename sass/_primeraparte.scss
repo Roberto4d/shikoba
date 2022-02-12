@@ -1,0 +1,39 @@
+@use 'global' as *;
+.quien-soy{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-left: 10%;
+        margin-right: 10%;
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2{
+                font-family: $title;
+            }
+            p{
+                font-family: $paragraph;
+            }
+            button{
+                font-family: $paragraph;
+                background-color: $red;
+                color: white;
+            }
+            button:hover{
+                background-color: $blue;
+            }
+        }
+        .fotografia{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                border-radius: 100%;
+                height: 50%;
+            }
+        }
+}

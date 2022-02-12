@@ -1,0 +1,36 @@
+@use 'global' as *;
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    .ft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 150px;
+        }
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .siguenos{
+            font-family: $title;
+        }
+        .iconos-fi{
+            img{
+                width: 32px;
+            }
+        }
+        .all-rights{
+            font-family: $paragraph;
+        }
+    }
+}

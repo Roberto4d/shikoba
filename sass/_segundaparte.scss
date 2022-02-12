@@ -1,0 +1,42 @@
+@use 'global' as *;
+.expertise{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5%;
+    grid-row-gap: 0px;
+    margin: 5%;
+    margin-bottom: 15%;
+    .pericia{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        h4{
+            font-family: $title;
+        }
+        p{
+            font-family: $paragraph;
+        }
+        button{
+            font-family: $paragraph;
+            background-color: $red;
+            color: white;
+        }
+        button:hover{
+            background-color: $blue;
+        }   
+    }
+}
+.encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    .quehacemos{
+        h2{
+            font-size: 54px;
+            font-family: $title;
+        }
+    }
+}

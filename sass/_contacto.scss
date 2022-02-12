@@ -1,0 +1,22 @@
+@use 'global' as *;
+.calendario{
+    text-align: center;
+    width: 400px;
+    ol{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        padding: 0;
+        .dia{
+            background-color: $blue;
+            color: white;
+            text-align: center;
+    }
+        .first-day{
+            grid-column-start: 7;
+        }
+        li{
+            text-align: right;
+        }
+    }
+}

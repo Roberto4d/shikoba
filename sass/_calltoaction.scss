@@ -1,0 +1,33 @@
+@use 'global' as *;
+
+.agenda-cita{
+    background-image: url("assets/nina2.png");
+    background-repeat: round;
+    padding: 250px;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        h2{
+            font-family: $title;
+            font-size: 40px;
+            color: white;
+        }
+        p{
+            font-family: $paragraph;
+            font-size: 22px;
+            color: white; 
+        }
+        button{
+            font-family: $paragraph;
+            background-color: $red;
+            color: white;
+        }
+        button:hover{
+            color: white;
+            background-color: $blue;
+        }
+    }  
+}

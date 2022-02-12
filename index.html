@@ -5,38 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Montserrat:wght@500&family=Rammetto+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="output.css">
     <title>Shikoba</title>
 </head>
 <body>
 <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">           
-                <img src="assets/shikoba.png" alt="logo">    
-              </a>
-              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Padecimientos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Curriculum</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                  </li>
-                </ul>
-              </div>
-              <button type="button" class="btn btn-dark">Contacto</button>
-            </div>
-          </nav> 
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+          <img src="assets/shikoba.png" alt="logo-shikoba">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Padecimientos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Evaluacion del desarrollo</a></li>
+              <li><a class="dropdown-item" href="#">Escuela para padres</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Curriculum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Blog</a>
+          </li>
+        </ul>
+          <button class="btn" type="submit">CONTACTO</button>
+      </div>
+    </div>
+  </nav>
 <!--carrousel-->
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -50,20 +65,23 @@
         <div class="carousel-caption d-none d-md-block">
           <h2>Estimulacion Temprana</h2>
           <p>La psicologa Sandra Janneth Durán Torres especilista en el trabajo con niños que necesitan estimulacion temprana</p>
+          <button type="button" class="btn">VER MAS</button>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="assets/lanina.png" class="d-block w-100" alt="...">
+        <img src="assets/kristin-brown-3kBtYrZ0-hw-unsplash.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
+          <h2>Second slide label</h2>
           <p>Some representative placeholder content for the second slide.</p>
+          <button type="button" class="btn">VER MAS</button>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+        <img src="assets/Untitled design.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
+          <h2>Third slide label</h2>
           <p>Some representative placeholder content for the third slide.</p>
+          <button type="button" class="btn">VER MAS</button>
         </div>
       </div>
     </div>
@@ -81,76 +99,79 @@
       <article class="info">
           <h2>Quien Soy?</h2>
           <p>
-              Soy Sandra Janneth estudie pscologia en el ITESO ....
+            Nunc vehicula sapien diam, sed iaculis ex sodales vel. Mauris auctor sem et orci sollicitudin, quis volutpat felis pellentesque. Aenean id massa laoreet, pellentesque velit a, convallis risus.
           </p>
-          <button type="button1" class="btn btn-dark">Curriculum</button>
+          <p>
+            Curabitur non tortor hendrerit, interdum odio ut, facilisis tellus. Sed eros nunc, hendrerit eu sem ac, egestas tincidunt urna. Aenean pretium feugiat ante vitae congue. In nec urna pulvinar, tincidunt elit eu, pulvinar libero. Vivamus bibendum id ligula vitae lobortis. Donec neque ex, tincidunt ut rhoncus sit amet, consequat non leo.
+          </p>
+          <button type="button1" class="btn">CURRICULUM</button>
       </article>
-      <article>
-          <img src="assets/shikoba.png" class="fotosandra" alt="Mi Foto">
+      <article class="fotografia">
+          <img src="assets/sandra.png" class="fotosandra" alt="Mi Foto">
       </article>
   </section>
-<!--SegundaParte-->  
-<section class="pericia">
-    <article class="title">
-        <h2>Soy experta en?</h2>
+<!--SegundaParte--> 
+<section class="encabezado">
+    <article class="quehacemos">
+        <h2>Que Hacemos?</h2>
     </article>
-    <article class="icon-box">
-        <figure class="icon-box1">
-            <img src="" alt="icono">
-        </figure>
-        <h4>Pruebas</h4>
-        <p>le realizaremos la prueba pertinente....</p>
-    </article>
+</section> 
+<section class="expertise">
+<section class="pericia">   
+    <figure class="icon">
+        <img src="assets/icons/playtime.png" alt="icono">
+    </figure>
+    <h4>Pruebas</h4>
+    <p>Nunc vehicula sapien diam, sed iaculis ex sodales vel. Mauris auctor sem et orci sollicitudin, quis volutpat felis pellentesque. Aenean id massa laoreet, pellentesque velit a, convallis risus.</p>
+    <button type="button1" class="btn">SABER MAS</button>
 </section>
 <section class="pericia">
-    <article class="title">
-        <h2>Soy experta en?</h2>
-    </article>
-    <article class="icon-box">
-        <figure class="icon-box1">
-            <img src="" alt="icono">
-        </figure>
-        <h4>Pruebas</h4>
-        <p>le realizaremos la prueba pertinente....</p>
-    </article>
+    <figure class="icon">
+        <img src="assets/icons/baby-girl.png" alt="icono">
+    </figure>
+    <h4>Pruebas</h4>
+    <p>Nunc vehicula sapien diam, sed iaculis ex sodales vel. Mauris auctor sem et orci sollicitudin, quis volutpat felis pellentesque. Aenean id massa laoreet, pellentesque velit a, convallis risus.</p>
+    <button type="button1" class="btn">SABER MAS</button>
 </section>
 <section class="pericia">
-    <article class="title">
-        <h2>Soy experta en?</h2>
-    </article>
-    <article class="icon-box">
-        <figure class="icon-box1">
-            <img src="" alt="icono">
-        </figure>
-        <h4>Pruebas</h4>
-        <p>le realizaremos la prueba pertinente....</p>
-    </article>
+    <figure class="icon">
+        <img src="assets/icons/baby.png" alt="icono">
+    </figure>
+    <h4>Pruebas</h4>
+    <p>Nunc vehicula sapien diam, sed iaculis ex sodales vel. Mauris auctor sem et orci sollicitudin, quis volutpat felis pellentesque. Aenean id massa laoreet, pellentesque velit a, convallis risus.</p>
+    <button type="button1" class="btn">SABER MAS</button>
+</section>
 </section>
 <!--Calltoaction-->  
-
-    <article class="agrega-muro">
-      <h2 class="agrega">Estimulacion temprana para tu hijo</h2>
-      <p class="agrega-un">Agenda tu cita con la Psicologa Sandra Duran y lleva a tu hijo al camino del exito</p>
-      <button type="button1" class="btn btn-dark">Agenda tu cita</button>
-    </article>
-
-<!--footer-->
-<section class="footer">
-    <article class="ft">
-      <img src="assets/shikoba.png" alt="logo">
-    </article>
-  
-    <article class="copyright">
-      <figure class="iconos-FI">
-        <img src="Assets/Iconos/instagram (1).png" alt="instagram">
-        <img src="Assets/Iconos/facebook (1).png" alt="facebook">
-      </figure>
-  
-        <div class="all-rights">
-          <p>Ⓒ All rights reserved Shikoba 2022</p>
+    <article class="agenda-cita">
+        <div>
+            <h2 class="agenda">Estimulacion Temprana Para Tu Hijo</h2>
+            <p class="agenda-c">Agenda tu cita con la Psicologa Sandra Duran y lleva a tu hijo al camino del exito</p>
+            <button type="button1" class="btn">AGENDAR TU CITA</button>
         </div>
     </article>
-  
+<!--footer-->
+<section class="footer">
+        <article class="ft">
+            <img src="assets/shikoba.png" alt="logo">
+          </article>
+          <article class="copyright">
+            <div class="all-rights">
+                <p class="siguenos">Siguenos!</p>
+              </div>
+            <figure class="iconos-fi">
+            <a class="navbar-brand" href="https://www.instagram.com/shikobakids/">
+              <img src="Assets/icons/instagram (2).png"  alt="instagram">
+            </a>
+            <a class="navbar-brand" href="https://www.facebook.com/shikoba.abc">
+              <img src="Assets/icons/facebook (2).png" alt="facebook">
+            </a>
+              
+            </figure>
+            <div class="all-rights">
+              <p>Ⓒ All rights reserved Shikoba 2022</p>
+            </div>
+          </article>
 </section>
 
 <!--Java Script-->

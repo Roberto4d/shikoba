@@ -1,3 +1,217 @@
+.container-fluid .navbar-brand img {
+  width: 125px;
+}
+.container-fluid .navbar-nav .nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container-fluid .navbar-nav .nav-item a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.container-fluid .navbar-nav .nav-item a:hover {
+  color: #EF2B5F;
+}
+.container-fluid .btn {
+  font-family: "Montserrat", sans-serif;
+  background-color: #EF2B5F;
+  color: white;
+}
+.container-fluid .btn:hover {
+  background-color: #049DE1;
+}
 
+.carousel .carousel-inner {
+  max-height: 500px;
+}
+.carousel .carousel-inner .carousel-item {
+  max-height: 500px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h2 {
+  font-family: "Rammetto One", cursive;
+  font-size: 54px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption p {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption .btn {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #EF2B5F;
+  color: white;
+  font-weight: 600;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption .btn:hover {
+  background-color: #049DE1;
+}
+
+.quien-soy {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.quien-soy .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quien-soy .info h2 {
+  font-family: "Rammetto One", cursive;
+}
+.quien-soy .info p {
+  font-family: "Montserrat", sans-serif;
+}
+.quien-soy .info button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #EF2B5F;
+  color: white;
+}
+.quien-soy .info button:hover {
+  background-color: #049DE1;
+}
+.quien-soy .fotografia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quien-soy .fotografia img {
+  border-radius: 100%;
+  height: 50%;
+}
+
+.expertise {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5%;
+  grid-row-gap: 0px;
+  margin: 5%;
+  margin-bottom: 15%;
+}
+.expertise .pericia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.expertise .pericia h4 {
+  font-family: "Rammetto One", cursive;
+}
+.expertise .pericia p {
+  font-family: "Montserrat", sans-serif;
+}
+.expertise .pericia button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #EF2B5F;
+  color: white;
+}
+.expertise .pericia button:hover {
+  background-color: #049DE1;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.encabezado .quehacemos h2 {
+  font-size: 54px;
+  font-family: "Rammetto One", cursive;
+}
+
+.agenda-cita {
+  background-image: url("assets/nina2.png");
+  background-repeat: round;
+  padding: 250px;
+}
+.agenda-cita div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.agenda-cita div h2 {
+  font-family: "Rammetto One", cursive;
+  font-size: 40px;
+  color: white;
+}
+.agenda-cita div p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  color: white;
+}
+.agenda-cita div button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #EF2B5F;
+  color: white;
+}
+.agenda-cita div button:hover {
+  color: white;
+  background-color: #049DE1;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+}
+.footer .ft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer .ft img {
+  width: 150px;
+}
+.footer .copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer .copyright .siguenos {
+  font-family: "Rammetto One", cursive;
+}
+.footer .copyright .iconos-fi img {
+  width: 32px;
+}
+.footer .copyright .all-rights {
+  font-family: "Montserrat", sans-serif;
+}
+
+.calendario {
+  text-align: center;
+  width: 400px;
+}
+.calendario ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0;
+}
+.calendario ol .dia {
+  background-color: #049DE1;
+  color: white;
+  text-align: center;
+}
+.calendario ol .first-day {
+  grid-column-start: 7;
+}
+.calendario ol li {
+  text-align: right;
+}
 
 /*# sourceMappingURL=output.css.map */
